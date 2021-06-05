@@ -1,10 +1,5 @@
-#include <iostream>
+#include "utils.h"
 
-using namespace std;
-
-int main()
-{
-    cout << "Hello, World!" << endl;
-    return 0;
-
+void func() {
+    std::cout << "utils::func" << std::endl; 
 }
